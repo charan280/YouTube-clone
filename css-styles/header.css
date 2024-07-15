@@ -1,0 +1,127 @@
+.input-edit{
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 188, 188);
+  border-radius: 2px;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.062);
+  width: 0;
+}
+ .input-edit::placeholder{
+ font-family: Roboto, Arial;
+ font-size: 16px;
+ }
+
+
+.header{
+  height: 55px;  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left:0;
+  right:0;
+  z-index: 100;
+  background-color: white;
+  border-bottom-width:1px ;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(230, 223, 223);
+   
+}
+
+
+.left-section{
+display: flex;
+align-items: center;
+}
+
+.hamburger-image{
+  height: 22px;
+  margin-left: 24px;
+  padding-left: 15px;
+  margin-right: 26px;
+}
+.youtube-logo-image{
+ height: 95px;
+}
+
+
+.middle-section{
+display: flex;
+ flex: 1;
+ margin-left: 70px;
+ margin-right: 35px;
+ max-width: 700px;
+ align-items: center;
+}
+ .search-button{
+  height: 40px;
+  width: 66px;
+  background-color: rgb(240, 240, 240);
+   border-width: 1px;
+   border-style: solid;
+   border-color: rgb(192, 188, 188);
+   margin-left: -1px;
+   margin-right: 10px;
+ }
+ .mic-button{
+  height: 40px;
+  width: 60px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(245,245,245);
+ }
+ .search-icon{
+  height: 24px;
+  margin-top: 4px;
+ }
+ .mic-icon{
+  height: 24px;
+  margin-top: 4px;
+ }
+
+.right-section{
+display: flex;
+align-items: center;
+width: 150px;
+justify-content: space-between;
+margin-right: 20px;
+flex-shrink: 0;
+}
+.create-icon{
+  height: 36px;
+
+}
+
+.notification-icon{
+  height:24px;
+ 
+}
+
+.notification-container{
+  position: relative;
+}
+.notification-count{
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(163, 6, 6);
+  color: white;
+  font-family: Roboto,Arial;
+  font-size: 12px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+}
+
+.my-channel-profile{
+  height: 30px;
+  border-radius: 16px;
+ 
+}
